@@ -44,7 +44,7 @@ class IntegrationTest extends TestCase
                 return false;
             }
 
-            if ($eventPayload->dateTime() != '20160101120000') {
+            if ($eventPayload->dateTime() != '2019-02-01T03:45:27.612584Z') {
                 return false;
             }
 
@@ -79,9 +79,7 @@ class IntegrationTest extends TestCase
     {
         $payload = [
             'type' => 'badgeEarned',
-            'dateTime' => '20160101120000',
-            'site' => ['id' => 'site1'],
-            'run' => ['id' => 'run1'],
+            'dateTime' => '2019-02-01T03:45:27.612584Z',
         ];
 
         return $payload;
