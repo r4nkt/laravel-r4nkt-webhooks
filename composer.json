@@ -1,5 +1,5 @@
 {
-    "name": "r4nktapp/laravel-r4nkt-webhooks",
+    "name": "r4nkt/laravel-r4nkt-webhooks",
     "description": "Handle R4nkt webhook calls in a Laravel app",
     "keywords": [
         "r4nkt",
