@@ -20,14 +20,4 @@ class R4nktWebhookCall
     {
         return $this->payload['dateTime'];
     }
-
-    public function site(): array
-    {
-        return $this->payload['site'];
-    }
-
-    public function run(): array
-    {
-        return $this->payload['run'];
-    }
 }

@@ -3,8 +3,8 @@
 return [
 
     /*
-     * R4nkt will sign webhooks using a secret. You can find the secret used at the webhook
-     * configuration settings: https://r4nkt.app/team-settings/notifications#webhooks
+     * R4nkt will sign webhooks using a secret. You can find the secret used for individual
+     * games at the game configuration settings: https://r4nkt.com/settings/games
      */
     'signing_secret' => env('R4NKT_SIGNING_SECRET'),
 
@@ -13,7 +13,7 @@ return [
      * application.
      *
      * You can find a list of R4nkt webhook types here:
-     * https://r4nkt.app/docs/webhooks/events
+     * https://r4nkt.com/docs/webhooks/events
      */
     'jobs' => [
         // 'badgeEarned' => \App\Jobs\R4nktWebhooks\HandleBadgeEarned::class,

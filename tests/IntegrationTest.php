@@ -48,14 +48,6 @@ class IntegrationTest extends TestCase
                 return false;
             }
 
-            if ($eventPayload->site()['id'] != 'site1') {
-                return false;
-            }
-
-            if ($eventPayload->run()['id'] != 'run1') {
-                return false;
-            }
-
             return true;
         });
 
