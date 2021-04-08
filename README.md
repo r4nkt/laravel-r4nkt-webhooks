@@ -9,11 +9,11 @@
 
 This package will not handle what should be done after the webhook request has been validated and the right job or event is called.
 
-Before using this package we highly recommend reading [the documentation on webhooks over at R4nkt](https://r4nkt.com/docs/1.0/webhooks/laravel-package).
+Before using this package we highly recommend reading [the documentation on webhooks over at R4nkt](https://docs.r4nkt.com/webhooks/overview).
 
 ## Documentation
 
-All package documentation can be found on the [R4nkt website](https://r4nkt.com/docs/1.0/webhooks/overview).
+All package documentation can be found on the [R4nkt website](https://docs.r4nkt.com/webhooks/overview).
 
 ## Contributing
 
